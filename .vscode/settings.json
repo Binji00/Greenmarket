@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.sideBar.location": "left",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+    "workbench.preferredLightColorTheme": "Default High Contrast",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.editor.decorations.colors": true
+}

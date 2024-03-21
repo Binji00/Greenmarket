@@ -1,0 +1,534 @@
+body{
+    /* background-color: rgb(226, 226, 226); */
+    background-color: rgb(29, 114, 151);
+    margin: 0;
+    height: 100%;
+}
+
+/* - start header.php - */
+header{
+    /* background-color: #091f3b; */
+    width: 100%;
+    height: 80px;
+    min-width: 1000px;
+    margin-bottom: 25px; 
+    border-bottom: solid;
+    background-color: #12305a;
+}
+
+section{
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+    min-height: calc(100vh - 161.5px);
+}
+
+footer{
+    border-top: solid;
+    height: 50px;
+    background-color: #12305a;
+    float: left;
+    width: 100%;
+    text-align: center;
+    min-width: 1000px;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.logo{
+    float: left;
+    padding: 20px 20px;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    height: 40px;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+    transform: scale(1.05)
+}
+
+.button {
+    background-color: #4c96d7;
+    color: white;
+    padding: 7.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    transform: scale(1.05)
+}
+
+.basketButton {
+    background-color: #ff8800;
+    color: white;
+    padding: 2.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 95%;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.basketButton:hover,
+.basketButton:focus,
+.basketButton:active {
+    transform: scale(1.01)
+}
+
+.PLZinput {
+    height: 30px;
+    width: 10%;
+    max-width: 120px;
+    margin-top: 25px;
+    margin-left: 0px;
+    float: left;
+    border: 0px;
+    background-color: #8dcaff;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+}
+
+.SEARCHbutton {
+   
+    border: 0px;
+    float: left;
+    margin-top: 25px;
+    background-color: #4c96d7;
+    height: 32px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.SEARCHbuttonIMG {
+    height: 25px;
+}
+
+.Suchfeld {
+    height: 30px;
+    width: 25%;
+    margin-top: 25px;
+    float: left;
+    margin-left: 15px;
+    border: 0px;
+    background-color: #8dcaff;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+
+}
+
+
+
+/* - end header.php - */
+
+/* - start footer.php - */
+
+
+.fussSmall{
+    background-color: white;
+    border-radius: 15px;
+    max-width: none;
+    height: 50px;
+    width: fit-content;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    margin: 25px auto;
+}
+
+.fussButton {
+    background-color: #4c96d7;
+    color: white;
+    padding: 2.5px 7.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.fussButton:hover,
+.fussButton:focus,
+.fussButton:active {
+    transform: scale(1.05)
+}
+
+.fussLogo{
+    float: left;
+    padding: 9px 10px;
+    margin-left: 10px;
+    height: 32.5px;
+    transition-duration: 0.2s;
+    transition-property: transform;
+
+}
+
+.fussLogo:hover,
+.fussLogo:focus,
+.fussLogo:active {
+    transform: scale(1.05)
+}
+/* - end footer.php - */
+
+/* - start Login - */
+.block-one-third-middle {
+    background-color: white;
+    width: 15%;
+    min-width: 350px;
+    height: 275px;
+    margin: 0 auto;
+    padding: 2.5%;
+}
+
+.loginInput{
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    float: left;
+    border: 0px;
+    background-color: #8dcaff;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: large;
+}
+::placeholder { 
+    color: rgb(53, 53, 53);
+  }
+
+.addProdInput{
+    height: 50px;
+    width: 24%;
+    margin-left: 10px;
+    float: left;
+    border: 0px;
+    background-color: #8dcaff;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: large;
+}
+::placeholder { 
+    color: rgb(53, 53, 53);
+  }
+
+.addProdInputSmall{
+    height: 50px;
+    width: 11.5%;
+    margin-left: 10px;
+    float: left;
+    border: 0px;
+    background-color: #8dcaff;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: large;
+}
+::placeholder { 
+    color: rgb(53, 53, 53);
+  }
+
+.submitLogin{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    width: 45%;
+    height: 40px;
+    background-color: #4c96d7;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    float: left;
+}
+.submitRegister{
+    margin-top: 25px;
+    width: 45%;
+    height: 40px;
+    background-color: #4c96d7;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+
+
+
+/* - end Login - */
+
+
+/* - start text - */
+.titel1 {
+    color: rgb(35, 35, 35);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.productInfo {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7.5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 12.5px;
+}
+
+.productPrice {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7.5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.productName {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.one_productInfo {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 7.5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+
+.one_productPrice {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7.5px;
+    padding-left: 0px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.one_productName {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7.5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.basket_summe {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    font-size: 1.2em;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+/* - end text - */
+
+
+/* - start blocks */
+.blockCategory {
+    background-color: white;
+    border-color: #8dcaff;
+    margin: 0.5% 0.5%;
+    border-radius: 15px;
+    height: auto; 
+    float: left;
+    width: 24%;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.blockCategory:hover,
+.blockCategory:focus,
+.blockCategory:active {
+    transform: scale(1.015)
+}
+
+.categoryName {
+    font-style: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.one_product_textBlock {
+    width: auto;
+    height: auto;
+    float: left;
+    max-width: 60%;
+}
+
+.product {
+    background-color: white;
+    margin: 0.5% 0.5%;
+    float: left;
+    height: 400px; 
+    width: 24%;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.basketProduct {
+    width: 100%;
+    height: auto;
+    float: left;
+    /* background-color: white; */
+    height: 200px;
+}
+
+.basketProduct1Line {
+    width: 100%;
+    float: left;
+}
+
+.lineInvisible {
+    width: 100%;
+    float: left;
+    border: none;
+}
+
+.basketProduct2Line {
+    width: 100%;
+    float: left;
+    height:2.25px;
+    border-style: hidden;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+.basketProductBlock{
+    width: 68.5%; 
+    background-color: white; 
+    overflow:hidden;
+    padding: 1%;
+}
+
+.basketImgBlock {
+    object-fit: scale-down; 
+    float: left;
+    margin-right: 10px;
+    height: 180px;
+    width: 230px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+}
+
+.one_product {
+    /* background-color: #ececec; */
+    width: 70.5%;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+
+.one_product_checkout {
+    border-radius: 15px;
+    width: 25%;
+    transition-duration: 0.2s;
+    transition-property: transform; 
+    float: right;
+    border-style: solid;
+    border-color: #ff8800;
+    padding: 5px;
+    margin-right: 2%;
+    background-color: white;
+}
+
+
+.bigBlock {
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    height: auto;
+    padding-left: 1%;
+    
+}
+
+.product:hover,
+.product:focus,
+.product:active {
+    transform: scale(1.015)
+}
+
+.one_blockImg {
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 15px;
+}
+
+.blockImg {
+    width: 100%;
+    height: 50%;
+    float: left;
+    margin: 5%;
+}
+
+/*  end blocks */
+
+/* start media */
+
+.productImg {
+    object-fit: scale-down; 
+    float: left;
+    margin-right: 10px;
+    height: 200px;
+    width: 90%;
+    /* padding: 5px; */
+    background-color: #f4f4f4;
+}
+
+.one_productImg {
+    max-height: 500px;
+    width: 100%;
+    float: left;
+    object-fit: contain;
+    margin-right: 10px;
+    height: auto;
+    
+}
+/* end media */
